@@ -14,7 +14,7 @@ public class ReverseString {
 	}
 	
 	public static String reverseString(String s){
-		if (s.length() == 1){
+		if (s.length() <= 1){
 			return s;
 		} else {
 			String left = s.substring(0, s.length()/2);
